@@ -1,11 +1,11 @@
 
 /* Your CSS Code here. */
-.box{
-	 display: flex;              /* Enables flexbox */
-  flex-direction: row;        /* Places items in a row (default) */
-  justify-content: space-between; /* Evenly distributes items */
+.holder{
+	 display: flex;           
+  flex-direction: row;       
+  justify-content: space-between; 
   flex-wrap: wrap; 
-	order: green red blue;
+	
 }
 .red{
 	background-color:red;
